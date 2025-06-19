@@ -7,6 +7,17 @@
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <distributionManagement>
+    <repository>
+        <id>nexus-id</id>  <!-- Must match the <id> in settings.xml -->
+        <url>http://13.127.23.65:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus-id</id>
+        <url>http://13.127.23.65:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+
     <name>demo</name>
     <description>Demo Spring Boot application</description>
     <parent>
