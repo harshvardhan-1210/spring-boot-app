@@ -14,7 +14,7 @@
     </repository>
     <snapshotRepository>
         <id>nexus-id</id>
-        <url>http://43.204.110.60:8081/repository/springboot-app/</url>
+        <url>http://43.204.110.60:8081/repository/spring-boot-webapp/</url>
     </snapshotRepository>
 </distributionManagement>
 
